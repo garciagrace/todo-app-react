@@ -39,6 +39,9 @@ module.exports = {
         moon: "url('/src/images/icon-moon.svg')",
         sun: "url('/src/images/icon-sun.svg')",
       },
+      spacing: {
+        '10%': '10%',
+      },
     },
     screens: {
       md: '600px',
