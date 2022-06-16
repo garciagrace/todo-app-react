@@ -31,12 +31,17 @@ module.exports = {
           },
         },
       },
+      backgroundImage: {
+        darkDesktop: "url('/src/images/bg-desktop-dark.jpg')",
+        darkMobile: "url('/src/images/bg-mobile-dark.jpg')",
+        lightDesktop: "url('/src/images/bg-desktop-light.jpg')",
+        lightMobile: "url('/src/images/bg-mobile-light.jpg')",
+        moon: "url('/src/images/icon-moon.svg')",
+        sun: "url('/src/images/icon-sun.svg')",
+      },
     },
     screens: {
       md: '600px',
-    },
-    fontFamily: {
-      josefin: ['Josefin Sans', 'sans-serif'],
     },
   },
   plugins: [],
